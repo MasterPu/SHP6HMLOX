@@ -10,7 +10,7 @@ Für Informationen zur Einrichtung etc., bitte das [Wiki](https://github.com/jp1
 [![Github All Releases](https://img.shields.io/github/downloads/MasterPu/SHP6HMLOX/total.svg)](https://github.com/MasterPu/SHP6HMLOX/releases)
 [![GitHub issues](https://img.shields.io/github/issues/MasterPu/SHP6HMLOX.svg)](https://github.com/MasterPu/SHP6HMLOX/issues)
 
-Die neueste kompilierte Firmware, die direkt auf den Shelly geflasht werden kann, findet ihr in den [Releases](https://github.com/MasterPu/SHP6HMLOX/releases/latest).
+Die neueste kompilierte Firmware, die direkt auf die Blitzwolf SHP6 geflasht werden kann, findet ihr in den [Releases](https://github.com/MasterPu/SHP6HMLOX/releases/latest).
 
 Wenn sich bereits eine ältere Version der hier angebotenen Firmware auf dem Shelly befindet, kann das Update "Over-the-Air", also direkt über das WLAN erfolgen! -> [Anleitung](https://github.com/jp112sdl/HMLOX/wiki/Flash_OTA)
 
