@@ -101,7 +101,7 @@ bool doWifiConnect() {
         gpio5 = F("<option value='0'>nicht verwendet</option><option value='1'>Taster</option><option value='2'>Schalter (absolut)</option><option selected value='3'>Schalter (toggle)</option>");
         break;
       default:
-        gpio5 = F("<option selected value='0'>nicht verwendet</option><option value='1'>Taster</option><option value='2'>Schalter</option>");
+        gpio5 = F("<option value='0'>nicht verwendet</option><option selected value='1'>Taster</option><option value='2'>Schalter</option>");
         break;
     }
     WiFiManagerParameter custom_gpio5mode("gpio5mode_switch", "GPIO5 Mode", "", 8, 2, gpio5.c_str());

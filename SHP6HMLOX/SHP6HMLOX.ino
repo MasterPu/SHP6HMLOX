@@ -178,7 +178,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("\nSHP6 " + WiFi.macAddress() + " startet... (FW: " + FIRMWARE_VERSION + ")");
   pinMode(RelayPin,        OUTPUT);
-  pinMode(SwitchGPIOPin5,  INPUT);
+  pinMode(SwitchGPIOPin5,  INPUT_PULLUP);
   pinMode(LEDPin,      OUTPUT);
 
   Serial.println(F("Config-Modus durch bootConfigMode aktivieren? "));
@@ -206,6 +206,10 @@ void setup() {
         startWifiManager = true;
         break;
       }
+      digitalWrite(LEDPin, HIGH);
+      delay(100);
+      digitalWrite(LEDPin, LOW);
+      delay(100);
     }
     Serial.println("Config-Modus " + String(((startWifiManager) ? "" : "nicht ")) + "aktiviert.");
   }
